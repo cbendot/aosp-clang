@@ -1,0 +1,6 @@
+*git filter=lfs diff=lfs merge=lfs -text
+bin/clang-check filter=lfs diff=lfs merge=lfs -text
+bin/lld filter=lfs diff=lfs merge=lfs -text
+lib64/libLLVM-14git.so filter=lfs diff=lfs merge=lfs -text
+bin/clang-14 filter=lfs diff=lfs merge=lfs -text
+lib64/libclang.so.13 filter=lfs diff=lfs merge=lfs -text
